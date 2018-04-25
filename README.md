@@ -1,7 +1,7 @@
 Linked list implementation
 ===========================
 
-Implementation built on skorks version of [linked list in C]{https://github.com/skorks/c-linked-list}.
+Implementation built on [skorks](https://github.com/skorks) version of linked list in C.
 
 To do a leak check (runs valgrind), after compile:
 
