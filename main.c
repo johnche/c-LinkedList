@@ -5,33 +5,33 @@ int main() {
     LinkedList* list = newLinkedList();
 
     printf("only NULL\n");
-    printLinkedList(list);
+    printLL(list);
 
     printf("pop empty list\n");
     leftLLPop(list);
-    printLinkedList(list);
+    printLL(list);
 
     printf("single node case\n");
     addLLNode(list, 1);
-    printLinkedList(list);
+    printLL(list);
 
     printf("pop left node with single\n");
     leftLLPop(list);
-    printLinkedList(list);
+    printLL(list);
 
     printf("add nodes, 3 5 7\n");
     addLLNode(list, 3);
     addLLNode(list, 5);
     addLLNode(list, 7);
-    printLinkedList(list);
+    printLL(list);
 
     printf("pop left node with multiple\n");
     leftLLPop(list);
-    printLinkedList(list);
+    printLL(list);
 
     printf("add 1\n");
     addLLNode(list, 1);
-    printLinkedList(list);
+    printLL(list);
 
     printf("dispose multiple nodes\n");
     disposeLL(list);

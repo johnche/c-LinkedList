@@ -16,7 +16,7 @@ LinkedList* newLinkedList() {
     return new_list;
 }
 
-void printLinkedList(LinkedList* list) {
+void printLL(LinkedList* list) {
     if (list->root == NULL) {
         printf("[]\n");
         return;

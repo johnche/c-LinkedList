@@ -11,7 +11,7 @@ typedef struct context {
 } LinkedList;
 
 LinkedList* newLinkedList();
-void printLinkedList(LinkedList* list);
+void printLL(LinkedList* list);
 void addLLNode(LinkedList* list, double data);
 int leftLLPop(LinkedList* list);
 void disposeLL(LinkedList* list);
