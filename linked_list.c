@@ -29,7 +29,6 @@ void printLL(LinkedList* list) {
     }
     printf("%f", current_node->data);
     printf("]\n");
-    return;
 }
 
 void addLLNode(LinkedList* list, double data) {
@@ -62,6 +61,5 @@ int leftLLPop(LinkedList* list) {
 void disposeLL(LinkedList* list) {
     while (leftLLPop(list) != 1) {}
     free(list);
-    return;
 }
 
